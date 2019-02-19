@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="SmartTemplates" />
+<meta name="description" content="landing page template for saas companies" />
+<meta name="keywords" content="landing page template, saas landing page template, saas website template, one page saas template" />
+<title>Home | CabbageSoft</title>
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet"> 
+</head>
+<body>
+	<header class="header">
+		<div class="header__content header__content--fluid-width">
+				<div class="header__logo-title"><img src="images/CST_Logo_TP.png" class="header__logo"></div>
+			<nav class="header__menu">                                                                   
+				<ul>
+					<li><a class="selected header-link" href="index.html#intro">HOME</a></li>
+					<li><a href="index.html#features" class="header-link">SERVICES</a></li>
+					<li class="menu-item-has-children"><a href="index.html#about" class="header-link">PRODUCTS</a>
+						<ul class="sub-menu">
+							<li><a href="index.html#about" class="header-link">CTKids</a></li>
+							<li><a href="index.html#about2" class="header-link">CTTrack</a></li>
+							<li><a href="index.html#about3" class="header-link">CTAudit Box</a></li>
+							<li><a href="index.html#about4" class="header-link">CTSecure</a></li>
+							<li><a href="index.html#about5" class="header-link">Entman</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#vendor" class="header-link">IT VENDOR</a></li>
+					<li><a href="index.html#clients" class="header-link">CLIENTS</a></li>
+					<li><a href="index.html#testimonials" class="header-link">TEAM</a></li>
+					<li><a href="about_us.html" class="header-link">ABOUT US</a></li>
+					<!-- <li class="header__btn header__btn--login modal-toggle" data-openpopup="signuplogin" data-popup="login"><a href="#">LOGIN</a></li> -->
+					<li class="header__btn header__btn--signup modal-toggle" data-openpopup="signuplogin" data-popup="signup"><a href="#">CONTACT US</a></li>			
+				</ul>
+			</nav> 
+		</div>		
+	</header>
+
+	<!-- Section -- intro -->
+	<section class="section section--intro" id="intro">
+			<div class="section__content section__content--fluid-width section__content--intro">
+				<div class="intro">
+				    <div class="intro__content">
+					<div class="intro__description"> <span>About Us</span></div>
+					<div class="intro__subtitle">We are bunch of leafs having more than 10 years of experience individually in various stream & industries. 
+
+						We are located at Mumbai and Ahmedabad with expertise in providing solution based on IT. Our team of experts mainly works on Java / J2EE, Android, iOS, Hadoop ecosystem and IoT. We are specialised in tracking solutions.
+						
+						As cabbage depicts we are very soft and flexible at the same time we contain high values. We are well integrated with each other and gel with you easily. Like cabbage, Dipper you go our relations will grow stronger. 
+						
+						We believe in providing most simple solution to most complex problem by using our extensive experience in IT world by providing solution to various industries.
+						
+						We provide the most simple solution to the most complex problem in various indusries via our innovative approach and extensive experience in the IT world.
+						
+						Most important which make us different is, We will make you process dependent instead of creating our dependency.
+					</div>
+					<div class="intro__buttons intro__buttons--left">
+					</div>
+				    </div>	
+				</div>
+			</div>
+			<div class="intro-animation">
+				<img src="images/intro-animation.png" alt="" title=""/>
+			</div>
+			<svg class="svg-intro-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M95,0 Q90,90 0,100 L100,100 100,0 Z" fill="#ffffff"/>
+			</svg>
+	</section>
+	<section class="modal modal--signuplogin" >
+			<div class="modal__overlay modal__overlay--toggle"></div>
+			<div class="modal__wrapper modal-transition">
+			  
+			<div class="modal__body">
+					
+				<div class="modal__content modal__content--login">
+					<div class="modal__info">
+						<h2 class="modal__title">First time here?</h2>
+						<div class="modal__descr">Join now and get <span>20% OFF</span> for all products</div>
+						<ul class="modal__list">
+						<li>premium access to all products</li>
+						<li>free testing tools</li>
+						<li>unlimited user accounts</li>
+						</ul>
+						<button class="modal__switch modal__switch--signup" data-popup="signup">Signup</button>
+					</div>
+					<div class="modal__form form">
+						<h2 class="form__title">Login</h2>
+							<form class="form__container" id="LoginForm" method="post" action="http://www.smarttemplates.net/lateral/Demo06/index.html">
+							
+							<div class="form__row">
+									<label class="form__label" for="namec">Name</label>
+								<input name="namec" id="namec" class="form__input" type="text"/>
+								<span class="form__row-border"></span>
+							</div>
+							<div class="form__row">
+									<label class="form__label">Email</label>
+								<input name="emailc" class="form__input" type="text"/>	
+								<span class="form__row-border"></span>									
+							</div>
+							
+							<div class="modal__checkbox"><input id="remember" name="remember" value="remember" checked type="checkbox"><label for="remember">Keep me Signed in</label></div>
+							<div class="modal__switch modal__switch--forgot" data-popup="forgot">Forgot Password?</div>
+							<input type="submit" name="submit" class="form__submit btn btn--green-bg" id="submitl" value="LOGIN" />
+							</form>
+					</div>
+				</div>  <!-- End Modal login -->
+				
+				<div class="modal__content modal__content--forgot">
+					<div class="modal__form form">
+						<h2 class="form__title">Forgot Password</h2>
+							<form class="form__container" id="ForgotForm" method="post" action="http://www.smarttemplates.net/lateral/Demo06/index.html">
+							<div class="form__row">
+								<label class="form__label">Email</label>
+								<input name="emailf" class="form__input" type="text"/>	
+								<span class="form__row-border"></span>									
+							</div>
+							<input type="submit" name="submit" class="form__submit btn btn--green-bg" id="submitf" value="RESET PASSWORD" />
+							</form>
+					</div>
+					<div class="modal__info">
+						<h2 class="modal__title">We got you covered</h2>
+						<div class="modal__descr">A new password will be sent by email. Remembered your password?</div>
+						<button class="modal__switch modal__switch--signup" data-popup="login">Login</button>
+					</div>
+				</div>  <!-- End Modal login -->
+				
+				
+				<div class="modal__content modal__content--signup">
+					<div class="modal__form form">
+						<h2 class="form__title" id="contactusSucess">Drop a Message</h2>
+							<form class="form__container" id="contactusform" method="post" >
+							<div class="form__row">
+								<label class="form__label" for="names">Name</label>
+								<input name="namec" id="names" class="form__input" type="text"/>
+								<span class="form__row-border"></span>
+							</div>
+							<div class="form__row">
+								<label class="form__label">Email</label>
+								<input name="emails" class="form__input" id="email" type="text"/>	
+								<span class="form__row-border"></span>									
+							</div>
+							<div class="form__row">
+								<label class="form__label" for="mobile">Mobile</label>
+								<input name="mobile" id="mobile" class="form__input" type="text"/>
+								<span class="form__row-border"></span>
+							</div>
+							<input type="submit" name="submit" class="form__submit btn btn--green-bg" id="contactsubmit" value="SEND" />
+							<img src="images/Spinner-1s-200px.gif" class="spinner" width="110"/>
+							</form>
+					</div>
+					<div class="modal__info">
+						<h2 class="intro__description"><span>Talk to a Human</span></h2>
+						<div class="intro__description">You're not going to hit a ridiculously long phone menu when you call us. Your email isn't going to the inbox abyss, never to be seen or heard from again. At CabbageSoft, we provide the exceptional service we'd want to experience ourselves!</div>
+						<ul class="grid__list">
+							<li>Mumbai Office:</li>	
+							<li>5th Floor, Thakur Mall, Thakur village, Kandivali(E), Mumbai, India - 400101.</li>	 
+							<li>+91 7021926752</li> 
+							<li>Nirav@cabbagesoft.com</li> 
+						</ul>
+						<!-- <button class="modal__switch modal__switch--login" data-popup="login">Login</button> -->
+					</div>
+				</div>  <!-- End Modal signup -->
+	
+				<div class="modal__content modal__content--demoproduct">
+						<div class="modal__form form">
+							<h2 class="form__title" id="demoproductSucess">Drop a Message</h2>
+								<form class="form__container" id="demoform" method="POST" action="#">
+								<div class="form__row">
+									<label class="form__label" for="names">Name</label>
+									<input name="namec" id="demonames" class="form__input" type="text"/>
+									<span class="form__row-border"></span>
+								</div>
+								<div class="form__row">
+									<label class="form__label">Email</label>
+									<input name="emails" class="form__input" id="demoemail" type="email"/>	
+									<span class="form__row-border"></span>									
+								</div>
+								<div class="form__row">
+									<label class="form__label" for="mobile">Mobile</label>
+									<input name="mobile" id="demomobile" class="form__input" type="text"/>
+									<span class="form__row-border"></span>
+								</div>
+	
+								<div class="form__row">
+										<label class="form__label" for="mobile">Product Name</label>
+										<input name="mobile" id="productname" class="form__input" type="text"/>
+										<span class="form__row-border"></span>
+									</div>
+	
+	
+								<input type="submit" name="submit" class="form__submit btn btn--green-bg" id="demosubmit" value="SEND" />
+								<img src="images/Spinner-1s-200px.gif" class="spinner" width="110"/>
+								</form>
+						</div>
+						<div class="modal__info">
+							<h2 class="intro__description"><span>Talk to a Human</span></h2>
+							<div class="intro__description">You're not going to hit a ridiculously long phone menu when you call us. Your email isn't going to the inbox abyss, never to be seen or heard from again. At CabbageSoft, we provide the exceptional service we'd want to experience ourselves!</div>
+							<ul class="grid__list">
+								<li>Mumbai Office:</li>	
+								<li>5th Floor, Thakur Mall, Thakur village, Kandivali(E), Mumbai, India - 400101.</li>	 
+								<li>+91 7021926752</li> 
+								<li>Nirav@cabbagesoft.com</li> 
+							</ul>
+							<!-- <button class="modal__switch modal__switch--login" data-popup="login">Login</button> -->
+						</div>
+				</div>  
+	
+		
+			
+					<!-- //demomodal -->
+			</div>
+			  
+			</div>
+		  </section>  
+
+		  <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.paroller.min.js"></script>
+<script src="js/jquery.custom.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
