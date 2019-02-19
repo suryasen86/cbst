@@ -11,14 +11,18 @@ $("#contactusform").submit(function() {
 
   event.preventDefault();
   if (email.length !== 0 || (mobile.length !== 0 && name.length !== 0)) {
-    if (emailRegex.test(email) == false) {
+    if (emailRegex.test(email) == false && email.length>0)  {
       $("#email").css("border-bottom", "1px solid red");
       $("#emailspan").css("display", "inline");
+      return null;
     }
-    if (mobileNumberRegex.test(mobile) == false && email.length==0) {
+    if (mobileNumberRegex.test(mobile) == false && mobile.length>0) {
       $("#mobile").css("border-bottom", "0.5px solid red");
       $("#mobilespan").css("display", "inline");
+      return null;
     }
+
+
     if (
       emailRegex.test(email) == true ||
       mobileNumberRegex.test(mobile) == true
@@ -101,13 +105,15 @@ $("#demoform").submit(function() {
 
   event.preventDefault();
   if (email.length !== 0 || mobile.length !== 0 && name.length !== 0 ) {
-    if (emailRegex.test(email) == false) {
+    if (emailRegex.test(email) == false && email.length>0) {
       $("#demoemail").css("border-bottom", "1px solid red");
       $("#demailspan").css("display", "inline");
+      return null;
     }
-   else if (mobileNumberRegex.test(mobile) == false && email.length==0) {
+    if (mobileNumberRegex.test(mobile) == false && mobile.length>0) {
         $("#demomobile").css("border-bottom", "0.5px solid red");
         $("#dmobilespan").css("display", "inline");
+        return null;
     }
     if (
       emailRegex.test(email) == true ||
