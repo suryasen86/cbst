@@ -197,6 +197,8 @@ $(".grid__item").flip({
   reverse: true
 });
 
+
+/* ContactMap */
 $('#mumbaichange').css('border-bottom','3px solid white');
 
 $('#mumbaichange').click(function(){

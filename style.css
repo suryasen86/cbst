@@ -678,6 +678,7 @@ h6{
 /* ELEMENT  grid__text  */
 /* --------------------  */
 .grid__text {
+
 	padding-bottom:20px;
 	line-height:26px;
 }
@@ -691,6 +692,10 @@ h6{
 	font-size: 18px;
 	font-weight: 100;
 }
+.grid__text--service
+{
+	text-align: justify;
+}
 
 /* ELEMENT  grid__more  */
 /* --------------------  */
@@ -700,9 +705,7 @@ h6{
 	padding:0 0 0 0;
 	display:inline-block;
 }
-.grid__more--vmalign{
-	
-}
+
 /* ELEMENT grid__list  */
 /* --------------------  */
 .grid__list{
@@ -711,6 +714,33 @@ h6{
 	margin:0px;
 }
 .grid__list li{
+	list-style:none;
+	padding:5px 0;
+	margin:0px;
+	line-height:22px;
+	color:#005e59;
+	font-weight: 400;
+}
+
+.grid__list--vendor{
+	list-style:disc;
+	padding:0px;
+	margin:0px;
+}
+.grid__list--vendor li{
+	list-style:disc;
+	padding:5px 0;
+	margin:0px;
+	line-height:22px;
+	color:#005e59;
+	font-weight: 400;
+}
+.grid__list--popup{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.grid__list--popup li{
 	list-style:none;
 	padding:5px 0;
 	margin:0px;
@@ -867,7 +897,7 @@ h6{
 	line-height:80px;
 	letter-spacing:-1px;
 	margin-right: 100px;
-	margin-bottom: 8px;
+	margin-bottom: 18px;
 }
 .intro__title span{
 	font-weight:700;
@@ -935,16 +965,23 @@ svg.svg-intro-bottom {
 	width:100%;
 	text-align:left;
 }
-.intro__title--subtitle
+.intro__title--subtitle 
 {
 	padding:0 0 15px 0;
-	color:#fff;
-	font-size:60px;
+	color: white;
+	font-size:50px;
 	line-height:80px;
 	letter-spacing:-1px;
 	margin-right: 100px;
 	margin-bottom: 8px;
 	margin-top: 10rem;
+}
+.intro__title--subtitle a{
+	color: white;
+}
+
+.intro__title--subtitle a:hover{
+	color: black;
 }
 
 @keyframes slideInFromBottom {
@@ -1073,7 +1110,7 @@ svg.svg-features-bottom {
 	margin:auto;	
 }
 .grid--features .grid__text{
-	text-align:center;
+	text-align:justify;
 }
 
 /*===============================================*/
@@ -2871,71 +2908,8 @@ svg.svg-cta-bottom {
 }
 
 }
-/*===============================================*/
-/* Small Mobile under 600	  					 */
-/*===============================================*/
-@media screen and (max-width: 600px) {
-.intro__title{
-	padding:5% 0 10px 0;
-	font-size:30px;
-	line-height:34px;
-}
-.intro__subtitle{
-	font-size:14px;
-	padding:0 0 30px 0;
-	line-height:20px;
-}
-.intro__description{
-	font-size:12px;
-}
-.btn{
-	padding:8px 15px; 
-}
-.btn--play{
-	padding-right:50px; 
-}
-.intro__title--subtitle
-{
-	padding:0 0 15px 0;
-	color:#fff;
-	font-size:25px;
-	line-height:30px;
-	letter-spacing:-1px;
-	margin-right: 10px;
-	margin-bottom: 8px;
-	margin-top: 10rem;
-}
-.intro__title--subtitle:hover
-{
-	text-decoration: underline;
-}
-
-.grid__video
-{
-		width:100%;
-		height: 50%;
-		float: center;
-		margin-bottom: 70px;
-		/* margin-left: 80px; */
-		
-}
 
 
-.clients__logo img{
-	height: 100px;
-	width: 100px;
-}
-
-
-
-}
-
-
-@media screen and (max-width:1368px){
-	.header__menu > ul > li > a {
-	font-size:14px;
-}
-}
 
 /* #spinner{
 	position: absolute;
@@ -2976,11 +2950,183 @@ svg.svg-cta-bottom {
     font-size: 13px;
 	}
 	.clients__logo img{
-		height: 100px;
-		width: 250px;
+		height: 70px;
+		width: 100px;
 	}
 
 	.work__logo img{
 		height: 200px;
 		width: 300px;
+	}
+	.it--vendor
+	{
+		margin-bottom: 60px;
+	
+	}
+
+	/*===============================================*/
+/* Small Mobile under 600	  					 */
+/*===============================================*/
+@media (min-width: 601px) and (max-width:800px) {
+	.intro__title{
+		padding:5% 0 10px 0;
+		font-size:30px;
+		line-height:34px;
+	}
+	.intro__subtitle{
+		font-size:14px;
+		padding:0 0 30px 0;
+		line-height:20px;
+	}
+	.intro__description{
+		font-size:12px;
+	}
+	.btn{
+		padding:8px 15px; 
+	}
+	.btn--play{
+		padding-right:50px; 
+	}
+	.intro__title--subtitle
+	{
+		padding:0 0 15px 0;
+		color:#fff;
+		font-size:40px;
+		line-height:40px;
+		letter-spacing:-1px;
+		margin-right: 100px;
+		margin-bottom: 8px;
+		margin-top: 70px;
+	
+	}
+	.intro__title--subtitle a{
+	
+		padding:5% 0 10px 0;
+		
+
+		font-weight: 500;
+		color:rgb(255, 249, 249);
+		font-size:28px;
+
+		margin-right: 0px;
+	}
+	.grid__video
+	{
+			width:100%;
+			height: 50%;
+			float: center;
+			margin-bottom: 70px;
+			/* margin-left: 80px; */
+			
+	}
+	
+	.grid__ourclients{
+		margin-left: 40%;
+	}
+	.clients__logo img{
+		height: 80px;
+		width: 100px;
+	}
+	
+	/* .clients__logo img{
+		height: 50px;
+		width: 50px;
+	} */
+	
+	
+	
+	}
+	
+	
+	@media screen and (max-width:1368px){
+		.header__menu > ul > li > a {
+		font-size:14px;
+	}
+	
+	.intro__title{
+		padding:0 0 15px 0;
+		color:#fff;
+		font-size:40px;
+		line-height:80px;
+		letter-spacing:-1px;
+		margin-right: 100px;
+		margin-bottom: 8px;
+	}
+	.intro__title--subtitle
+	{
+		padding:0 0 15px 0;
+		color:#fff;
+		font-size:36px;
+		line-height:80px;
+		letter-spacing:-1px;
+		margin-right: 100px;
+		margin-bottom: 8px;
+		margin-top: 70px;
+	
+	}
+	.btn
+	{
+		font-size: 12px;
+	}
+	.it--vendorsize
+		{
+			margin-bottom: 60px;
+			margin-top: -50px;
+		}
+		.grid__list--popup{
+			list-style:none;
+			padding:0px;
+			margin:0px;
+		}
+		.grid__list--popup li{
+			font-size: 15px;
+			list-style:none;
+			padding:5px 0;
+			margin:0px;
+			line-height:12px;
+			color:#005e59;
+			font-weight: 400;
+		}
+	
+	}
+	
+	@media  (min-width: 400px) and (max-width:600px){
+		.intro__title--subtitle
+	{
+		padding:0 0 15px 0;
+		letter-spacing:-1px;
+		/* margin-right: 80px; */
+		margin-bottom: 8px;
+		margin-top: 70px;
+		
+	
+	}
+	.intro__title--subtitle a{
+	
+		padding:5% 0 10px 0;
+		
+
+		font-weight: 500;
+		color:rgb(255, 249, 249);
+		font-size:28px;
+
+		margin-right: 0px;
+	}
+	.intro__title{
+		margin-right: 0px;
+		font-size:30px;
+	}
+
+	.grid__ourclients{
+		margin-left: 40%;
+	}
+	.clients__logo img{
+		height: 80px;
+	
+	}
+
+	.grid__ourwork{
+		margin-top: 90px;
+	}
+	
 	}
