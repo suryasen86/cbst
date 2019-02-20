@@ -1150,6 +1150,8 @@ svg.svg-features-bottom {
 	background-color:#c1f8e1;
 	margin:auto;
 }
+
+
 .testimonials__text{
 	width:80%;
 	margin:auto;
@@ -1160,6 +1162,7 @@ svg.svg-features-bottom {
 	line-height:24px;
 	text-align:center;
 }
+
 .testimonials__source{
 	font-weight:700;
 	font-size:20px;
@@ -2964,6 +2967,30 @@ svg.svg-cta-bottom {
 	
 	}
 
+
+	.clientlogoswiper{
+		background: #fff;
+	}
+
+	.clients__thumb img{
+		width:150px;
+		-webkit-border-radius: 10%;
+		-moz-border-radius: 10%;
+		border-radius: 10%;
+		/* padding:10px; */
+		background-color:#f1f3f2;
+		margin:auto;
+	}
+	
+	.clientlogoswiper{
+		width: 100%;
+		height: auto;
+		overflow:hidden;
+		position:relative;
+		margin:0;
+		padding:40px 0 80px 0;
+	}
+	
 	/*===============================================*/
 /* Small Mobile under 600	  					 */
 /*===============================================*/
