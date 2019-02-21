@@ -829,7 +829,7 @@ h6{
 	border:2px #28e180 solid;
 }
 .btn--green-bg:hover{
-	color:#fff;
+	color:#28e180;
 	background-color:transparent;
 }
 .btn--green-border{ 
@@ -2881,7 +2881,7 @@ svg.svg-cta-bottom {
 	display:block;
 	padding:20px 5%;
 }
-.modal__content--login, .modal__content--forgot, .modal__content--signup{
+.modal__content--login, .modal__content--forgot, .modal__content--signup,.modal__content--demoproduct{
   background-color:#fff;
 }
 .modal__image{
@@ -3135,7 +3135,7 @@ svg.svg-cta-bottom {
 
 		font-weight: 500;
 		color:rgb(255, 249, 249);
-		font-size:28px;
+		font-size:24px;
 
 		margin-right: 0px;
 	}
@@ -3154,6 +3154,9 @@ svg.svg-cta-bottom {
 
 	.grid__ourwork{
 		margin-top: 90px;
+	}
+	.modal__content--demoproduct{
+    background-color: #ffff;
 	}
 	
 	}

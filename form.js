@@ -12,7 +12,7 @@ $("#contactusform").submit(function() {
   event.preventDefault();
   if (email.length !== 0 || (mobile.length !== 0 && name.length !== 0)) {
     if (emailRegex.test(email) == false && email.length>0)  {
-      $("#email").css("border-bottom", "1px solid red");
+      $("#email").css("border-bottom", "0.5px solid red");
       $("#emailspan").css("display", "inline");
       return null;
     }
@@ -72,7 +72,7 @@ $("#contactusform").submit(function() {
     }
   } else {
     if (email.length == 0) {
-      $("#email").css("border-bottom", "1px solid red");
+      $("#email").css("border-bottom", "0.5px solid red");
       $("#emailspan").css("display", "inline");
     }
     if (mobile.length == 0) {
@@ -106,7 +106,7 @@ $("#demoform").submit(function() {
   event.preventDefault();
   if (email.length !== 0 || mobile.length !== 0 && name.length !== 0 ) {
     if (emailRegex.test(email) == false && email.length>0) {
-      $("#demoemail").css("border-bottom", "1px solid red");
+      $("#demoemail").css("border-bottom", "0.5px solid red");
       $("#demailspan").css("display", "inline");
       return null;
     }
@@ -166,7 +166,7 @@ $("#demoform").submit(function() {
     }
   } else {
     if (email.length == 0) {
-    $("#demoemail").css("border-bottom", "1px solid red");
+    $("#demoemail").css("border-bottom", "0.5px solid red");
     $("#demailspan").css("display", "inline");
   }
     if (mobile.length == 0) {
