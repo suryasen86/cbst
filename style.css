@@ -2995,6 +2995,7 @@ svg.svg-cta-bottom {
 /* Small Mobile under 600	  					 */
 /*===============================================*/
 @media (min-width: 601px) and (max-width:800px) {
+
 	.intro__title{
 		padding:5% 0 10px 0;
 		font-size:30px;
@@ -3067,7 +3068,7 @@ svg.svg-cta-bottom {
 	
 	@media screen and (max-width:1368px){
 		.header__menu > ul > li > a {
-		font-size:14px;
+		font-size:13px;
 	}
 	
 	.intro__title{
@@ -3160,3 +3161,20 @@ svg.svg-cta-bottom {
 	}
 	
 	}
+	@media  (min-width: 1369px) and (max-width:1670px){
+
+		.header__menu > ul > li > a {
+			font-size:13px;
+		}
+		.intro__title{
+			padding:0 0 15px 0;
+			color:#fff;
+			font-size:55px;
+			line-height:80px;
+			letter-spacing:-1px;
+			margin-right: 100px;
+			margin-bottom: 8px;
+		}
+
+	}
+	
