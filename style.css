@@ -2973,7 +2973,7 @@ svg.svg-cta-bottom {
 	}
 
 	.clients__thumb img{
-		width:150px;
+		width:200px;
 		-webkit-border-radius: 10%;
 		-moz-border-radius: 10%;
 		border-radius: 10%;
@@ -3178,3 +3178,29 @@ svg.svg-cta-bottom {
 
 	}
 	
+.mainrevies_div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 100px;
+	background-color: white;
+}
+.videos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 400px;
+	/* background-color: red; */
+	margin: 5px;
+	width: 100%;
+	padding: 10px;
+}
+
+.grid__video2{
+	height: 100%;
+	width: 90%;
+}
+.testimonials__source{
+	margin-top: 10px;
+}
