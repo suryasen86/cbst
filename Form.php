@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])){
   $emailSubject = 'Website Query';
-  $mainEmail = 'vinaybharati.cst@gmail.com';
+  $mainEmail = 'info@cabbagesoft.com';
 
     $nameField = $_POST['namec'];
     $emailField = $_POST['emails'];
