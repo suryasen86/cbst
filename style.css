@@ -397,7 +397,7 @@ h6{
 	clear:both;
 }
 .section__content--padding{
-	padding:100px 0;
+	padding:30px 0;
 }
 /* ELEMENT - section__title */
 .section__title{
@@ -1008,7 +1008,7 @@ svg.svg-intro-bottom {
 /*  7.2 CUSTOM SECTION - ABOUT	 			 */
 /*===============================================*/
 .section__content--about{
-	padding:100px 0 0 0;
+	padding:20px 0 0 0;
 }
 .grid--about .grid__item{
 	margin-bottom:0px;
@@ -1046,7 +1046,7 @@ svg.svg-intro-bottom {
 	padding:0;
 }
 .section__content--features{
-	padding:80px 0 0px 0;
+	padding:20px 0 0px 0;
 }
 svg.svg-features-bottom {
 	position: absolute;
@@ -2658,7 +2658,7 @@ background-color:#fff;
 	padding-bottom:40px;
 }
 .section__content--padding{
-	padding:50px 0;
+	padding:20px 0;
 }
 .section__title{
 	font-size:28px;
@@ -3098,7 +3098,7 @@ svg.svg-cta-bottom {
 	}
 	.it--vendorsize
 		{
-			margin-bottom: 60px;
+			margin-bottom: 20px;
 			margin-top: -50px;
 		}
 		.grid__list--popup{
